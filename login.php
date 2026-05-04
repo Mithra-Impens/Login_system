@@ -19,6 +19,32 @@ unset($_SESSION['error']);
         body.dark { background-color: #121212; color: white; }
         body.warm { background-color: #f4a261; color: white; }
         body.light { background-color: #f8f9fa; }
+body.dark {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark .card {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+body.warm {
+    background: linear-gradient(135deg, #f4a261, #e76f51);
+    color: white;
+}
+
+body.warm .card {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+body.light {
+    background-color: #f8f9fa;
+}
+
+
+        
     </style>
 </head>
 
